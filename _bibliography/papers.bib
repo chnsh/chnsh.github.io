@@ -1,84 +1,55 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@misc{shah2020finding,
+    title={Finding Patient Zero: Learning Contagion Source with Graph Neural Networks},
+    author={Chintan Shah and Nima Dehmamy and Nicola Perra and Matteo Chinazzi and Albert-László Barabási and Alessandro Vespignani and Rose Yu},
+    year={2020},
+    eprint={2006.11913},
+    archivePrefix={arXiv},
+    primaryClass={cs.SI},
+    abstract={Locating the source of an epidemic, or patient zero (P0), can provide critical insights into the infection's transmission course and allow efficient resource allocation. Existing methods use graph-theoretic centrality measures and expensive message-passing algorithms, requiring knowledge of the underlying dynamics and its parameters. In this paper, we revisit this problem using graph neural networks (GNNs) to learn P0. We establish a theoretical limit for the identification of P0 in a class of epidemic models. We evaluate our method against different epidemic models on both synthetic and a real-world contact network considering a disease with history and characteristics of COVID-19. % We observe that GNNs can identify P0 close to the theoretical bound on accuracy, without explicit input of dynamics or its parameters. In addition, GNN is over 100 times faster than classic methods for inference on arbitrary graph topologies. Our theoretical bound also shows that the epidemic is like a ticking clock, emphasizing the importance of early contact-tracing. We find a maximum time after which accurate recovery of the source becomes impossible, regardless of the algorithm used. },
+    arxiv={2006.11913},
+    preview={p0.jpg}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article {Duygu SaatciogluA576,
+	author = {H Duygu Saatcioglu and Juan Valle and Teresa Macarulla and Milind Javle and Do-Youn Oh and Lipika Goyal and Jake Conway and Janani Iyer and Fedaa Najdawi and Chintan Shah and Camelia Gliser and Susan Pandya and Scott Daigle and Ghassan Abou-Alfa and Robin Kelley},
+	title = {552 Characteristics of the tumor microenvironment in IDH1-mutated cholangiocarcinoma patients from ClarIDHy trial},
+	volume = {10},
+	number = {Suppl 2},
+	pages = {A576--A577},
+	year = {2022},
+	doi = {10.1136/jitc-2022-SITC2022.0552},
+	publisher = {BMJ Specialist Journals},
+	abstract = {Background Somatic isocitrate dehydrogenase 1 mutations (IDH1m) convert α-ketoglutarate to the oncogenic metabolite R-2-hydroxyglutarate (2-HG). IDH1m are detected in approximately 13\% of intrahepatic cholangiocarcinomas (CCAs).1 Ivosidenib, an oral inhibitor of the IDH1m protein inhibits 2-HG and restores immune response in CCA.2 We analyzed pre-treatment samples, using machine learning models to quantify histologic features of the CCA tumor microenvironment, enabling identification of correlates of IDH1m status, early disease progression (patients experienced progression or death within 1.54 months), and plasma 2-HG levels (median, 630 ng/ml).Methods A set of H\&amp;E images, including from ClarIDHy3, a phase 3 placebo controlled clinical trial of ivosidenib in IDH1m CCA, were split into training/validation (n=200) and test sets for model development. Whole slide images were annotated by GI pathologists to identify and quantify more than 500 different human interpretable features (HIFs), including cell (cancer cell, lymphocyte, macrophage, plasma cell, fibroblast) and tissue (cancer epithelium, stroma, necrosis) features. Utilizing IDH1m and wild type (WT) screening samples, multivariate logistic regression models were trained to predict IDH1m status. P-values were calculated by univariate logistic regression and corrected for multiple comparisons via adjustment for FDR.Results A HIF-based multivariate model discriminated between IDH1m and WT CCA (AUC, 0.83; 95\% CI, 0.74-0.92). IDH1m was associated with a lower proportion of lymphocytes throughout the tumor (OR, 0.64; P\&lt;0.01; FDR P=0.022), and higher proportion of fibroblasts (OR, 1.8; P\&lt;0.01; FDR P=0.023) and lower proportion of plasma cells in the stroma (OR, 0.68; P\&lt;0.01; FDR P=0.032 ) (figure 1A). In a subset of samples, CD3 and CD8 staining showed reduced T-lymphocyte infiltration patterns in IDH1m (n=5) samples relative to IDH1 WT (n=19) (figure 1B). Early disease progression of enrolled ClarIDHy patients (ivosidenib n=61, placebo n=38) was associated with a higher proportion of macrophages (OR, 1.70; P\&lt;0.01; FDR P=0.08) and a lower proportion of tumor infiltrating lymphocytes (OR, 0.63; P\&lt;0.01; FDR P=0.08), (figure 2A). When correcting for treatment effect, the proportion of lymphocytes in the tumor were still associated with improved PFS (P=0.011). Consistent with previously published data2, high 2-HG levels were associated with lower numbers of tumor infiltrating lymphocytes (OR, 0.63; P=0.011; FDR P=0.08) (figure 2B).Conclusions Quantitative histologic evaluation suggests that pre-treatment IDH1m CCA samples have a colder tumor microenvironment relative to IDH1 WT CCA, with an immunosuppressive tumor microenvironment being associated with early progression. Results from this analysis support exploration of combination with immune checkpoint inhibitors.Trial Registration NCT02989857ReferencesBoscoe AN, Rolland C, Kelley RK. Frequency and prognostic significance of isocitrate dehydrogenase 1 mutations in cholangiocarcinoma: a systematic literature review. J Gastrointest Oncol. 2019;10(4):751{\textendash}765. doi: 10.21037/jgo.2019.03.10.Wu MJ, Shi L, Dubrot J, et al. Mutant IDH Inhibits IFN?-TET2 signaling to promote immunoevasion and tumor maintenance in cholangiocarcinoma. Cancer Discov. 2022;12(3):812{\textendash}835. doi: 10.1158/2159-8290.CD-21-1077.Abou-Alfa GK, Macarulla T, Javle MM, et al. Ivosidenib in IDH1-mutant, chemotherapy-refractory cholangiocarcinoma (ClarIDHy): a multicentre, randomised, double-blind, placebo-controlled, phase 3 study. Lancet Oncol. 2020;21(6):796{\textendash}807. doi: 10.1016/S1470-2045(20)30157-1. Epub 2020 May 13. Erratum in: Lancet Oncol. 2020 Oct;21(10):e462.Ethics Approval This study was done according to the International Conference on Harmonisation of Good Clinical Practice guidelines and the principles of the Declaration of Helsinki. Approval from the institutional review board and international ethics committee was obtained at each study site. Patients provided written, informed consent before participating in the study.Abstract 552 Figure 1 Tumor microenvironment of IDH1m vs IDH1 WTTumor microenvironment of IDH1m CCA compared to IDH1 WT at screening. (A) 163 screening samples, including IDH1m (n=138) and IDH1 WT (n=25) subjects were analyzed by machine learning of histological features. Samples deemed by a panel of GI pathologist to be extrahepatic as a best response were excluded from the analysis. IDH1m status in CCA was associated with lower proportions of lymphocytes in the tumor (Upper Row), higher proportions of fibroblasts in the stroma (Middle Row), and lower proportions of plasma cells in the stroma (Bottom Row). Tumor includes cancer epithelium and stroma tissues in the whole sections. Uncorrected P values are displayed on the Figures (B) Further analysis of a subset of screening samples (n=5 IDH1m, n=19 IDH1 WT) by CD3 and CD8 staining was performed. Representative whole slide biopsy H\&amp;E images indicating lower proportions of lymphocytes in the IDH1m CCA tumor via machine learning-derived predictions (Upper Row; Lymphocytes are indicated with dark green marker overlay. MLO=Machine Learning Overlay, representative image for CD3 immunohistochemistry (Middle Row), and representative image for CD8 immunohistochemistry (Bottom Row).Abstract 552 Figure 2 Differences in CCA tumor microenvironment.Differences in CCA tumor microenvironment based on early disease progression and pre-treatment plasma 2-HG levels. (A) Pre-treatment screening samples from 99 (ivosidenib cohort n=61, placebo cohort n=38) patients treated on the ClarIDHy study were analyzed for association with early disease progression, defined as experiencing progression or death within 1.54 months (47 days) (PFS\&lt;1.54 months) Early disease progression was associated with lower proportions lymphocytes over immune cells in cancer epithelium (Upper Row) and higher proportions of macrophages (Bottom Row) over immune cells in cancer epithelium (B) Plasma 2-HG levels were available for 100 IDH1m patients, with sample groups separated based on the median plasma 2-HG level (630 ng/ml). Higher plasma 2-HG levels were associated with lower proportions of lymphocytes in CCA tumor. Uncorrected P values are displayed on the Figures (A and B)},
+	html = {https://jitc.bmj.com/content/10/Suppl_2/A576},
+	pdf = {https://jitc.bmj.com/content/10/Suppl_2/A576.full.pdf},
+	journal = {Journal for ImmunoTherapy of Cancer},
+	abbr = {JITC}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@misc{li2022selftraining,
+      title={Self-training of Machine Learning Models for Liver Histopathology: Generalization under Clinical Shifts},
+      author={Jin Li and Deepta Rajan and Chintan Shah and Dinkar Juyal and Shreya Chakraborty and Chandan Akiti and Filip Kos and Janani Iyer and Anand Sampat and Ali Behrooz},
+      year={2022},
+      eprint={2211.07692},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      arxiv={2211.07692},
+      abstract={Histopathology images are gigapixel-sized and include features and information at different resolutions. Collecting annotations in histopathology requires highly specialized pathologists, making it expensive and time-consuming. Self-training can alleviate annotation constraints by learning from both labeled and unlabeled data, reducing the amount of annotations required from pathologists. We study the design of teacher-student self-training systems for Non-alcoholic Steatohepatitis (NASH) using clinical histopathology datasets with limited annotations. We evaluate the models on in-distribution and out-of-distribution test data under clinical data shifts. We demonstrate that through self-training, the best student model statistically outperforms the teacher with a 3% absolute difference on the macro F1 score. The best student model also approaches the performance of a fully supervised model trained with twice as many annotations.},
+      abbr={ML4H},
+      preview={self_train.png}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@misc{juyal2023scmil,
+      title={SC-MIL: Supervised Contrastive Multiple Instance Learning for Imbalanced Classification in Pathology},
+      author={Dinkar Juyal and Siddhant Shingi and Syed Ashar Javed and Harshith Padigela and Chintan Shah and Anand Sampat and Archit Khosla and John Abel and Amaro Taylor-Weiner},
+      year={2023},
+      eprint={2303.13405},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      arxiv={2303.13405},
+      abstract={Multiple Instance learning (MIL) models have been extensively used in pathology to predict biomarkers and risk-stratify patients from gigapixel-sized images. Machine learning problems in medical imaging often deal with rare diseases, making it important for these models to work in a label-imbalanced setting. Furthermore, these imbalances can occur in out-of-distribution (OOD) datasets when the models are deployed in the real-world. We leverage the idea that decoupling feature and classifier learning can lead to improved decision boundaries for label imbalanced datasets. To this end, we investigate the integration of supervised contrastive learning with multiple instance learning (SC-MIL). Specifically, we propose a joint-training MIL framework in the presence of label imbalance that progressively transitions from learning bag-level representations to optimal classifier learning. We perform experiments with different imbalance settings for two well-studied problems in cancer pathology: subtyping of non-small cell lung cancer and subtyping of renal cell carcinoma. SC-MIL provides large and consistent improvements over other techniques on both in-distribution (ID) and OOD held-out sets across multiple imbalanced settings.},
+      preview={sc_mil.jpg}
 }
