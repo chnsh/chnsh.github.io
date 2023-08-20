@@ -26,8 +26,7 @@ I work in Machine Learning at [PathAI](https://pathai.com) developing deep learn
 **Research Interests**:
 My current skills lie in machine learning applied to digital pathology and I find myself excited about self-supervised, multi-modal, and multi-task learning. I am generally interested in optimization and deep learning.
 
-**Previously**: I began my career as a software engineer at [Media.net](https://media.net) (part of the [Directi](https://directi.com) group), a company famous for being part of Directi. My focus was on developing large-scale, low-latency solutions to optimize ad revenue in the ad-tech industry. As I progressed within the organization, I eventually became a senior software engineer leading a team of five, which provided me with valuable leadership experience.
+**Previously**: I began my career as a software engineer at [Media.net](https://media.net) (part of the [Directi](https://directi.com) group). My focus was on developing large-scale, low-latency solutions to optimize ad revenue in the ad-tech industry. As I progressed within the organization, I eventually became a senior software engineer leading a team of five, which provided me with valuable leadership experience.
 
-During my sophomore year of college, I also tried my hand at entrepreneurship by launching Lazywyre, an online textbook store that allowed students to rent books for a semester.  
 
 Topics that intrigue me include but are not limited to networks, finance, entrepreneurship, music, spirituality, and just about anything else that helps me understand why the world is the way it is.
