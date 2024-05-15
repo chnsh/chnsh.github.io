@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2020-07-09 15:59:00-0400
+date: 2024-05-14 15:59:00-0400
 inline: true
+related_posts: false
 ---
 
-[Finding Patient Zero](http://arxiv.org/abs/2006.11913) poster accepted to [NetSCI 2020](https://netsci2020.netscisociety.net/)
+Our Pathology Foundation Model: PLUTO (PathoLogy Universal TransfOrmer) is now available [here](https://arxiv.org/abs/2405.07905)!
