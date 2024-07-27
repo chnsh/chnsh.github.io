@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: ML at <a href='https://pathai.com'>PathAI, Inc.</a>; Previously MS CS at Northeastern, Directi 
+subtitle: ML at <a href='https://pathai.com'>PathAI, Inc.</a>; Previously MS CS at Northeastern, Software/ML at Media.net (Directi) 
 
 profile:
   align: right
